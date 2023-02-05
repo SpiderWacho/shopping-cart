@@ -1,0 +1,28 @@
+.btn {
+  padding: 15px 0px;
+  width: 120px;
+  border: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2rem;
+
+}
+
+.primary {
+  color: white;
+  background-color: black;
+  transition: 0.3s ease-in-out all;
+  border: 1px solid black;
+}
+
+.primary:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out all;
+}
+
+.secondary {
+  color: black;
+  background-color: white;
+}

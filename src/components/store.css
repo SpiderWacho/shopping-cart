@@ -1,0 +1,12 @@
+.store-content {
+    background-color: #fafafa;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    overflow: auto;
+}
+

@@ -1,0 +1,26 @@
+.header {
+    height: 10vh;
+    background-color: black;
+  }
+  
+  .bar-img-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    object-fit: contain;
+    height: 50px;
+    padding-left: 1%;
+  }
+
+  .cart {
+    object-fit: contain;
+    height: 30px;
+    padding-right: 1%;
+    cursor: pointer;
+  }
+  

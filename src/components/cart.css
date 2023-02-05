@@ -1,0 +1,58 @@
+.bar {
+    height: 100vh;
+    width: 25vw;
+    background-color: black;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 2;
+    animation: appear .7s ease-in-out forwards ;
+}
+
+.title {
+    border: 1px solid white;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bar > .product-container {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bar > .description {
+    border: 1px solid white;
+    height: 15%;
+}
+
+.bar > .total {
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar > .button-container {
+    height: 20%;
+    border: 1px solid red;
+}
+
+@keyframes appear {
+    0% {
+        right: -15%;
+        opacity: 0%;
+    }
+    100% {
+        right: 0%;
+        opacity: 100%;
+    }
+    
+}
