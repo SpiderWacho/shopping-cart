@@ -5,26 +5,47 @@ import airforce from '../img/airforce1.png'
 import retroHigh from '../img/retro1.png'
 import huarache from '../img/huarache.png'
 import travis from '../img/travis.png'
-import dunk from '../img/nike-dunk.png'
-import airmax from '../img/air-max.png'
+import forty from '../img/forty.png'
+import airmax from '../img/airmax.png'
 import './store.css'
 
 
 const shoes = [
-    {img: airforce,
-    name: 'Airforce 1'},
-    {img: retroHigh,
-    name: 'Nike Retro High'},
-    {img: huarache,
-    name: 'Nike Huarache'},
-    {img: travis,
-    name: 'Travis x Jordan Air 1'},
-    {img: dunk,
-    name: 'NIKE SB DUNK HIGH PRO QS'},
-    {img: airmax,
-    name: 'Nike Air Max 1'}]
+    {id: 1,
+    img: airforce,
+    name: 'AIRFORCE 1',
+    price: 149,
+    },
+    {
+    id: 2,
+    img: retroHigh,
+    name: 'RETRO HIGH',
+    price: 123,
+    },
+    {
+    id: 3,
+    img: huarache,
+    price: 119,
+    name: 'HUARACHE',
+    },
+    {id: 4,
+    img: travis,
+    price: 209,
+    name: 'TRAVIS X JORDAN AIR',
+    },
+    {id: 5,
+    img: forty,
+    price: 119,
+    name: 'FORTY PERCENT ',
+    },
+    {id: 6,
+    img: airmax,
+    name: 'NIKE AIR MAX 1',
+    price: 99,
+    }]
 
-
+    
+        
 
 
 const Store = () => {
@@ -33,7 +54,9 @@ const Store = () => {
         <>
         <Header></Header>
         <div className="store-content">
-            {shoes.map((shoe) => <Product shoe={shoe} />)}
+            {shoes.map((shoe) => <Product shoe={shoe} key={shoe.id}/>)}
+        </div>
+        <div className='footer'>
         </div>
         </>
     )

@@ -1,12 +1,24 @@
+
 .store-content {
     background-color: #fafafa;
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 1fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
     overflow: auto;
 }
 
+@media (min-width: 890px) { 
+    .store-content {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+        overflow: auto;
+    }
+}
