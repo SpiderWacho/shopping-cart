@@ -26,3 +26,8 @@
   color: black;
   background-color: white;
 }
+
+.secondary:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
