@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-container > .img-container {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.details-container > .img-container > .img-product {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product.forty {
+    object-fit: contain;
+}
+
+.details-container > .img-container > .img-product.airforce {
+    height: 90%;
+    width: 90%;
+}
+
+
+
+.shoe-name {
+    position: absolute;
+    left: 300px;
+    font-family: 'Bebas Neue', cursive; 
+    color: black;
+    font-size: 4rem;
+    animation: textAppear .8s ease-in-out forwards;
+}
+
+.shoe-name.retro-high {
+    left: 75%;
+    top: 0;
+    font-size: 2rem;
+}
+
+.shoe-name.huarache {
+    left: 50%;
+    font-size: 2rem;
+}
+
+.shoe-name.travis {
+    left: 10px;
+    font-size: 2rem;
+}
+
+.shoe-name.forty {
+    font-size: 1.5rem;
+    left: 10px;
+    top: 0;
+}
+
+.shoe-name.airforce {
+    font-size: 2rem;
+    left: 15px;
+    bottom: 0;
+    
+}
+
+
+.information-container {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #000000 25%, #0a0a0a 25%, #0a0a0a 50%, #000000 50%, #000000 75%, #0a0a0a 75%, #0a0a0a 100%);
+    background-size: 56.57px 56.57px;
+}
+
+.buy {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-container > .description {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.description > .text-description {
+    text-align: center;
+    padding: 30%;
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.text-description .active {
+    animation: textAppear .8s ease-in-out forwards;
+}
+
+@keyframes textAppear {
+    0% {
+        opacity: 0;
+        top: 25%
+    }
+    100% {
+        top: 150px;
+        opacity: 1;
+    }
+    
+}
+
+@media (min-width: 890px) { 
+
+    .shoe-name.airforce {
+        left: 100px;
+        font-size: 4rem;
+    }
+
+    .description > .text-description {
+        font-size: 1.5rem;
+    }
+
+    .shoe-name.retro-high {
+        left: 60%;
+        font-size: 4rem;
+    }
+
+    .shoe-name.huarache {
+        left: 60%;
+        font-size: 4rem;
+    }
+
+    .shoe-name.travis {
+        left: 100px;
+        font-size: 4rem;
+    }
+
+    .shoe-name.forty {
+        font-size: 2.2rem;
+        left: 10px;
+        top: 0;
+    }
+    
+    
+}
