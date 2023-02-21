@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.1d970428.css",
+    "main.js": "/shopping-cart/static/js/main.344d870b.js",
+    "static/media/airmax-details.png": "/shopping-cart/static/media/airmax-details.1a735d8626c7ff886669.png",
+    "static/media/forty-details.jpg": "/shopping-cart/static/media/forty-details.192e84bc8143c38adca0.jpg",
+    "static/media/travis-details.jpg": "/shopping-cart/static/media/travis-details.9b710eb10ca9d84c7335.jpg",
+    "static/media/retro1-details.jpg": "/shopping-cart/static/media/retro1-details.a4d65f752e676f786991.jpg",
+    "static/media/travis.png": "/shopping-cart/static/media/travis.e181a3ab6a910945b55a.png",
+    "static/media/huarache-details.jpg": "/shopping-cart/static/media/huarache-details.b7a279d0645e10b4850d.jpg",
+    "static/media/airmax.png": "/shopping-cart/static/media/airmax.87547a00683b365039a9.png",
+    "static/media/forty.png": "/shopping-cart/static/media/forty.026d6f98695a30b93746.png",
+    "static/media/logo-white.png": "/shopping-cart/static/media/logo-white.b42a51e62ced0d34b54d.png",
+    "static/media/retro1.png": "/shopping-cart/static/media/retro1.a9d3906e4d089182e319.png",
+    "static/media/airforce1.png": "/shopping-cart/static/media/airforce1.ecf6aa31d00fd37f5b05.png",
+    "static/media/huarache.png": "/shopping-cart/static/media/huarache.6d58712d8f7238731474.png",
+    "static/media/airforce1-details.jpg": "/shopping-cart/static/media/airforce1-details.d4121ed3306597ee2e06.jpg",
+    "static/media/leftArrow.png": "/shopping-cart/static/media/leftArrow.8d411e10b3876bddd2b1.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.1d970428.css.map": "/shopping-cart/static/css/main.1d970428.css.map",
+    "main.344d870b.js.map": "/shopping-cart/static/js/main.344d870b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d970428.css",
+    "static/js/main.344d870b.js"
+  ]
+}
