@@ -1,6 +1,17 @@
-.header {
-    height: 10vh;
+.header-container {
+    display: flex;
+    justify-content: center;
     background-color: black;
+    height: 10vh;
+    width: 100%;
+  }
+
+.header {
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
   }
   
   .bar-img-container {
@@ -10,17 +21,65 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .logo-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
   
   .logo {
     object-fit: contain;
-    height: 50px;
-    padding-left: 1%;
+    height: 65px;
+    max-height: 150px;
+    padding-left: 25px;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    opacity: 80%;
+  }
+
+  .cart-container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .cart {
     object-fit: contain;
     height: 30px;
-    padding-right: 1%;
+    padding-right: 25px;
+    justify-self: flex-end;
+  }
+
+  .cart:hover {
     cursor: pointer;
+    opacity: 80%;
+  }
+
+  .pop-up {
+    position: absolute;
+    right: 1%;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    animation: pop .8s forwards ease-in-out;
+  }
+
+  @keyframes pop {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
   }
   
