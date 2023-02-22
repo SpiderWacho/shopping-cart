@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.1d970428.css",
-    "main.js": "/shopping-cart/static/js/main.73d56a4a.js",
+    "main.js": "/shopping-cart/static/js/main.a0c31584.js",
     "static/media/airmax-details.png": "/shopping-cart/static/media/airmax-details.1a735d8626c7ff886669.png",
     "static/media/forty-details.jpg": "/shopping-cart/static/media/forty-details.192e84bc8143c38adca0.jpg",
     "static/media/travis-details.jpg": "/shopping-cart/static/media/travis-details.9b710eb10ca9d84c7335.jpg",
@@ -18,10 +18,10 @@
     "static/media/leftArrow.png": "/shopping-cart/static/media/leftArrow.8d411e10b3876bddd2b1.png",
     "index.html": "/shopping-cart/index.html",
     "main.1d970428.css.map": "/shopping-cart/static/css/main.1d970428.css.map",
-    "main.73d56a4a.js.map": "/shopping-cart/static/js/main.73d56a4a.js.map"
+    "main.a0c31584.js.map": "/shopping-cart/static/js/main.a0c31584.js.map"
   },
   "entrypoints": [
     "static/css/main.1d970428.css",
-    "static/js/main.73d56a4a.js"
+    "static/js/main.a0c31584.js"
   ]
 }
