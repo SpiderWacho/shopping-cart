@@ -19,9 +19,9 @@ const RouteSwitch = () => {
       <CartContext.Provider value={{cart, setCart}}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="store/details" element={<Details />} />
+          <Route path="/shopping-cart" element={<Homepage />} />
+          <Route path="/shopping-cart/store" element={<Store />} />
+          <Route path="/shopping-cart/store/details" element={<Details />} />
         </Routes>
       </BrowserRouter>
       </CartContext.Provider>
