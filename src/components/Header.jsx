@@ -16,7 +16,7 @@ return (
     <div className='header-container'>
         <div className="header">
         <span className='logo-container'>
-            <Link to='/'><img src={logo} className='logo'></img></Link>
+            <Link to='/shopping-cart'><img src={logo} className='logo'></img></Link>
         </span>
         <span className='cart-container'>
             <img src={cartImg} className='cart' onClick={() => setCart(true)}></img>
