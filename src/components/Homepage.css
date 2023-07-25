@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+:root {
+  --bg-color: rgb(31, 31, 31);
+}
 
 .content {
   height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .column {
@@ -27,7 +31,7 @@
 
 .footer {
   height: 5vh;
-  background-color: black;
+  background-color: var(--bg-color);
 }
 
 .swiper {
@@ -153,7 +157,7 @@
   .buy-btn:hover {
     transition: all 0.2s ease-in-out; 
     background-color: white;
-    color: black;
+    color: var(--bg-color);
     cursor: pointer;
   }
 

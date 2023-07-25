@@ -9,7 +9,7 @@
 
 .primary {
   color: white;
-  background-color: black;
+  background-color: var(--bg-color);
   transition: 0.3s ease-in-out all;
   border: 1px solid black;
 }

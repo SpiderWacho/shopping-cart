@@ -1,7 +1,7 @@
 .bar {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: var(--bg-color);
     position: absolute;
     right: 0%;
     top: 0%;
@@ -185,10 +185,10 @@
     
 }
 
-@media (min-width: 890px) {
+@media (min-width: 768px) {
 
     .bar {
-        width: 25vw;
+        width: 45vw;
     }
 
     .title {
@@ -209,5 +209,23 @@
     .bar > .button-container {
         height: 20%;
     }
+
+}
+
+@media (min-width: 1024px) {
+
+    .bar {
+        width: 35vw;
+    }
+
+
+}
+
+@media (min-width: 1440px) {
+
+    .bar {
+        width: 25vw;
+    }
+
 
 }
